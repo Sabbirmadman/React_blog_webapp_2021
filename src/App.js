@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Topbar from "./componnent/topbar/Topbar";
+import Topbar2 from "./componnent/topbar2/Topbar2";
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
@@ -12,7 +13,9 @@ function App() {
   const user = true;
   return (
     <Router>
-      <Topbar />
+      {/* <Topbar /> */}
+      <Topbar2 />
+
       <Switch>
         <Route exact path="/">
           <Home />
