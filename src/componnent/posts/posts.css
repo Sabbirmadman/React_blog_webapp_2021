@@ -5,3 +5,8 @@
   flex-wrap: wrap;
   margin: 20px;
 }
+@media only screen and (min-width: 600px) {
+  .posts {
+    margin: 10px;
+  }
+}

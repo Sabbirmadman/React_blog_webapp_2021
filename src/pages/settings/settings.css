@@ -3,9 +3,15 @@
     display: flex;
   }
 }
+
 .settingsWrapper {
   flex: 9;
   padding: 20px;
+}
+@media screen and (min-width: 600px) {
+  .settingsWrapper {
+    padding-left: 6rem;
+  }
 }
 .settingsTitle {
   display: flex;
